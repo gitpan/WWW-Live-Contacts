@@ -12,7 +12,7 @@ require LWP::UserAgent;
 require HTTP::Request;
 require XML::Simple;
 
-our $VERSION = '1.0.0';
+our $VERSION = '1.0.1';
 our $CONTACTS_BASE_URL = 'https://livecontacts.services.live.com/users/@C@%s/rest/livecontacts';
 our $FORCED_ARRAY = [ 'Email', 'Phone', 'Location', 'Contact', 'IMAddress' ];
 
@@ -310,7 +310,7 @@ WWW::Live::Contacts - A Microsoft Live Contacts client
 
 =head1 VERSION
 
-1.0.0
+1.0.1
 
 =head1 DESCRIPTION
 

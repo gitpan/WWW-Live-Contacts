@@ -3,6 +3,8 @@ package WWW::Live::Contacts::Collection;
 use strict;
 use warnings;
 
+our $VERSION = '1.0.1';
+
 use HTTP::Date qw(str2time time2isoz);
 
 sub new {
@@ -46,7 +48,7 @@ WWW::Live::Contacts::Collection
 
 =head1 VERSION
 
-1.0.0
+1.0.1
 
 =head1 AUTHOR
 

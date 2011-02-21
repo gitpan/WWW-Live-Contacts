@@ -3,6 +3,8 @@ package WWW::Live::Contacts::Email;
 use strict;
 use warnings;
 
+our $VERSION = '1.0.1';
+
 sub new {
   my ( $proto, $type ) = @_;
   my $class = ref $proto || $proto;
@@ -94,7 +96,7 @@ WWW::Live::Contacts::Email
 
 =head1 VERSION
 
-1.0.0
+1.0.1
 
 =head1 AUTHOR
 
